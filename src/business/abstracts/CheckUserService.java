@@ -1,8 +1,7 @@
 package business.abstracts;
 
-import java.util.List;
-
 import entities.concretes.User;
+import java.util.List;
 
 public interface CheckUserService {
 	boolean checkFirstName(User user);
@@ -12,4 +11,4 @@ public interface CheckUserService {
 	boolean checkFormatEmail(User user);
 	boolean checkUser(User user);
 
-}
+}//testtt
